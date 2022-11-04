@@ -1,0 +1,43 @@
+.header {
+    padding-top: 28px;
+    padding-bottom: 28px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+    max-width: 1440px;
+    background-color: #f0f;
+
+    margin: 0 auto;
+}
+
+.logo__imagem {
+    width: 148px;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 120px;
+    width: 100%;
+}
+
+.navegacao__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navegacao__menu--item, .navegacao__login--item {
+    margin: .25rem;
+    padding: .25rem;
+}
+
+.navegacao__login {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

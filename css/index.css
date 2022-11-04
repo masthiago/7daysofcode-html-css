@@ -1,0 +1,9 @@
+/* Variáveis comuns */
+:root {
+
+    --clr-branco: #FFF;
+}
+
+body {
+  background-color: var(--clr-branco);
+}
