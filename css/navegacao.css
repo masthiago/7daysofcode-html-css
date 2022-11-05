@@ -1,52 +1,33 @@
-.header {
+.navegacao {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 0 auto;
+    justify-content: space-between;
+    width: 100%;
     max-width: 1440px;
-    padding-bottom: 28px;
-    padding-top: 28px;
+    padding: 1.5rem 0;
+    margin: 0 auto;
 }
 
 .logo__imagem {
     width: 148px;
+    margin: auto;
 }
 
-.navegacao {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 120px;
-    width: 100%;
-}
-
-.navegacao__menu {
+.navegacao__menu, .navegacao__login{
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.navegacao__menu--item, .navegacao__login--item {
-    margin: .25rem;
-    padding: .25rem;
-}
-
-.navegacao__login {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.navegacao__menu--link, .navegacao__login--link {
+.navegacao__menu a, .navegacao__login a {
     color: var(--clr-cinza);
+    margin-right: 2rem;
     text-decoration: none;
 }
 
-.navegacao_login--cadastrar {
+.navegacao__login a#cadastrar {
     background-color: var(--clr-vermelho-escuro);
-    border: 1px solid var(--clr-vermelho-bordar-cadastro);
     border-radius: 8px;
-    box-shadow: 0px 1px 2px var(--clr-sombra-clara);
     color: var(--clr-branco);
     padding: 10px 18px;
 }

@@ -5,13 +5,19 @@
     --clr-cinza-medio: #667085;
     --clr-cinza-escuro: #101828;
     --clr-vermelho-escuro: #8E2424;
-    --clr-vermelho-bordar-cadastro: #8E2424;
-    --clr-sombra-clara: rgba(16, 24, 40, 0.05);
     --fnt-inter: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: var(--clr-branco);
   color: var(--clr-cinza-medio);
   font-family: var(--fnt-inter);
+  height: 100vh;
+  width: 100%;
 }
