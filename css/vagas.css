@@ -1,0 +1,35 @@
+.vagas {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas span {
+    padding: 0.75rem;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 5rem;
+    color: var(--clr-vermelho-escuro);
+    background: var(--clr-vermelho-escuro_a05);
+    margin-bottom: 1.5rem;
+}
+
+.vagas h3 {
+    color: var(--clr-cinza-escuro);
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.vagas p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+}
+
+.vagas img {
+    margin: 2rem auto;
+}
