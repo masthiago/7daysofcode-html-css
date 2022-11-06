@@ -1,0 +1,32 @@
+.metricas {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.metricas div {
+    max-width: 285px;
+    padding: 2rem 0;
+}
+
+.metricas h2 {
+    color: var(--clr-vermelho-escuro);
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.metricas h3 {
+    color: var(--clr-cinza-escuro);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.metricas p {
+    font-size: 1.20rem;
+    line-height: 135%;
+}
