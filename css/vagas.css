@@ -33,3 +33,42 @@
 .vagas img {
     margin: 2rem auto;
 }
+
+.anuncios {
+    display: block;
+    width: 100%;
+    max-width: 768px;
+}
+
+.anuncios h3 {
+    color: var(--clr-cinza-escuro);
+    font-size: 1.35rem;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.vaga {
+    border: 1px solid var(--clr-cinza-claro);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.vaga h4 {
+    color: var(--clr-cinza-escuro);
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0.35rem 0;
+    margin: 1rem
+}
+
+.vaga span {
+    background-color: var(--clr-branco);
+    color: var(--clr-cinza-medio);
+    padding: 0.35rem 0;
+    margin: 1rem;
+    min-width: 75px;
+    display: inline-block;
+}
