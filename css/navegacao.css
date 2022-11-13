@@ -8,9 +8,22 @@
     margin-bottom: 8rem;
 }
 
-.logo__imagem {
-    width: 148px;
-    margin: auto;
+.navegacao a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navegacao a .logo__texto {
+    color: var(--clr-cinza-medio);
+    font-weight: 600;
+    margin-left: .75rem;
+}
+
+.navegacao .logo__imagem {
+    margin: 0;
+    padding: 0;
 }
 
 .navegacao__menu, .navegacao__login{
@@ -23,7 +36,6 @@
 .navegacao__menu a, .navegacao__login a {
     color: var(--clr-cinza);
     margin-right: 2rem;
-    text-decoration: none;
 }
 
 .navegacao__login a#cadastrar {

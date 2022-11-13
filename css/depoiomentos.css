@@ -1,0 +1,42 @@
+.depoimentos {
+    align-items: center;
+    background-color: var(--cordeburroquandofoge);
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+    margin-bottom: 5rem;
+    max-width: 1216px;
+    padding: 5rem;
+    width: 100%;
+}
+
+.depoimentos h2 {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 2.5;
+    font-weight: 500;
+    color: var(--clr-vermelho-escuro);
+    margin-bottom: 1rem;
+}
+
+.depoimentos h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--clr-cinza-escuro);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.depoimentos img {
+    margin: 1rem;
+}
+
+.depoimentos span {
+    margin: .35rem;
+}
+
+.depoimentos .nome {
+    font-weight: 600;
+    color: var(--clr-cinza-escuro);
+    font-size: 1.15rem;
+}
